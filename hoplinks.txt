@@ -4,7 +4,7 @@ smoothie diet (smoothdiet): https://680d26tl3bgnu69ryntjs8j02u.hop.clickbank.net
 mitolyn (mitolyn): https://39474exnzpqgi3-krhti2kcw73.hop.clickbank.net
 EMAIL 1 — Sent Immediately After Signup
 Subject: Your 7-Day Keto Kickstart Plan is inside 🥩
-Hey {{ subscriber.first_name }},
+Hey {!firstname_fix},
 Welcome aboard. You just made a smart move.
 Your 7-Day Keto Kickstart Plan is attached / linked below. Here's what to do right now:
 
@@ -17,12 +17,12 @@ If you want to take it even further, I found a 14-day keto program that's gettin
 → Get the 14-Day Rapid Soup Diet Here:
 https://3f2ab4pczpcmm71auk0oqs40ds.hop.clickbank.net
 Talk tomorrow,
-[Jimmy]
-KetoOver40
+Jimmy
+KetoMen40
 
 EMAIL 2 — Day 2
 Subject: The #1 mistake men over 40 make on keto
-Hey {{ subscriber.first_name }},
+Hey {!firstname_fix},
 Quick question: have you started Day 1 yet?
 If so, nice work. If not, no judgment — today is a great day to start.
 Either way, I want to warn you about the biggest mistake I see men over 40 make when starting keto:
@@ -34,11 +34,11 @@ And if you want a done-for-you program that handles all the meal planning and po
 → Check out The Smoothie Diet here:
 https://680d26tl3bgnu69ryntjs8j02u.hop.clickbank.net
 More tips coming tomorrow.
-[Jimmy]
+Jimmy
 
 EMAIL 3 — Day 3
 Subject: How to survive the "keto flu" (do this today)
-Hey {{ subscriber.first_name }},
+Hey {!firstname_fix},
 Days 2-4 are where most guys quit keto. Here's why:
 Your body is switching fuel sources — from glucose to fat. During this transition, you might feel foggy, tired, or get headaches. People call it the "keto flu."
 But here's what most people don't know: it's almost entirely an electrolyte issue.
@@ -54,11 +54,11 @@ I also keep bone broth on hand during the first week — one cup in the afternoo
 https://3f2ab4pczpcmm71auk0oqs40ds.hop.clickbank.net
 Push through this part and by Day 5-6, you're going to feel a surge of energy and mental clarity that's hard to describe. That's your body running on fat. It's worth it.
 Keep going,
-[Jimmy]
+Jimmy
 
 EMAIL 4 — Day 5
 Subject: Why keto works differently after 40 (the testosterone connection)
-Hey {{ subscriber.first_name }},
+Hey {!firstname_fix},
 Here's something most keto guides won't tell you:
 After 40, your testosterone levels start declining about 1-2% per year. Lower T means more belly fat, less muscle, less energy, and a slower metabolism. It's a vicious cycle.
 Here's where keto comes in: healthy fats are the building blocks of testosterone production. When you switch to a high-fat diet, you're giving your body the raw materials it needs to support healthy T-levels.
@@ -76,11 +76,11 @@ If you want to accelerate your fat loss alongside keto, this natural metabolism 
 → Check out Mitolyn here:
 https://39474exnzpqgi3-krhti2kcw73.hop.clickbank.net
 Talk soon,
-[Jimmy]
+Jimmy
 
 EMAIL 5 — Day 7
 Subject: You just finished Week 1. Here's what's next.
-Hey {{ subscriber.first_name }},
+Hey {!firstname_fix},
 If you followed the 7-Day Kickstart Plan, congratulations — you've done something that 90% of people who "try keto" never accomplish: you made it through the hardest week.
 By now you should be noticing:
 
@@ -100,11 +100,11 @@ If you want a simpler approach — just blend a smoothie and go:
 → The 21-Day Smoothie Diet:
 https://680d26tl3bgnu69ryntjs8j02u.hop.clickbank.net
 Either way, I'm proud of you for making it this far.
-[Jimmy]
+Jimmy
 
 EMAIL 6 — Day 9
 Subject: The "lazy keto" approach that actually works
-Hey {{ subscriber.first_name }},
+Hey {!firstname_fix},
 I want to introduce you to a concept called "lazy keto."
 It's exactly what it sounds like: you focus on one thing only — keeping net carbs under 20-30g per day. That's it. No tracking calories. No weighing food. No apps.
 For men over 40 with busy lives, this is often the most sustainable approach. Here's why:
@@ -121,11 +121,11 @@ And if you want to supercharge your results without adding any complexity, this 
 → Check out Mitolyn:
 https://39474exnzpqgi3-krhti2kcw73.hop.clickbank.net
 Stay consistent,
-[Jimmy]
+Jimmy
 
 EMAIL 7 — Day 12
 Subject: What to do when the scale stops moving
-Hey {{ subscriber.first_name }},
+Hey {!firstname_fix},
 At some point — usually around week 2-3 — the scale stalls. Every single person who does keto hits this.
 Don't panic. Here's what's happening:
 Your body lost a bunch of water weight in Week 1 (that's normal). Now it's transitioning to actual fat burning, which is slower but permanent.
@@ -136,5 +136,5 @@ Here are 3 things that restart progress:
 If you want a proven system that combines intermittent fasting with the right eating strategy — this is the program I recommend most for breaking through plateaus:
 → Eat Stop Eat Program:
 https://2eef38wn1glpu68bim1lwiuvyj.hop.clickbank.net
-You've got this, {{ subscriber.first_name }}. The guys who push past the plateau are the ones who get the real results.
-[Jimmy]
+You've got this, {!firstname_fix}. The guys who push past the plateau are the ones who get the real results.
+Jimmy
