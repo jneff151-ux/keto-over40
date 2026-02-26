@@ -77,6 +77,15 @@
         .final-cta{text-align:center;padding:48px 0 32px;margin-bottom:40px;border-top:1px solid rgba(255,255,255,.05)}
         .final-cta h2{font-size:clamp(22px,4vw,30px);font-weight:800;color:#fff;margin-bottom:16px}
         .final-cta p{font-size:16px;color:#9ca3af;margin-bottom:28px}
+        .prod-sec{margin-bottom:56px}
+        .prod-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:24px}
+        .prod-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:12px;transition:border-color .2s}
+        .prod-card:hover{border-color:rgba(34,139,34,.3)}
+        .prod-tag{display:inline-block;background:rgba(34,139,34,.15);border:1px solid rgba(34,139,34,.3);color:#6abf6a;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;border-radius:100px;width:fit-content}
+        .prod-card h3{font-size:17px;font-weight:700;color:#fff}
+        .prod-card p{font-size:14px;color:#9ca3af;line-height:1.6}
+        .prod-link{display:inline-block;padding:12px 24px;background:linear-gradient(135deg,#228B22,#2ea043);color:#fff;font-size:14px;font-weight:700;border:none;border-radius:10px;cursor:pointer;text-decoration:none;transition:all .25s;text-align:center;width:fit-content}
+        .prod-link:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(34,139,34,.35)}
         .inline-cta{display:inline-block;padding:16px 40px;background:linear-gradient(135deg,#228B22,#2ea043);color:#fff;font-size:16px;font-weight:700;border:none;border-radius:12px;cursor:pointer;text-decoration:none;transition:all .25s}
         .inline-cta:hover{transform:translateY(-2px);box-shadow:0 8px 30px rgba(34,139,34,.35)}
         footer{text-align:center;padding:32px 0;border-top:1px solid rgba(255,255,255,.05);font-size:12px;color:#4b5563}
@@ -175,6 +184,38 @@
             </div>
         </section>
 
+        <!-- RECOMMENDED PRODUCTS -->
+        <section class="prod-sec">
+            <div class="sec-title">Recommended Programs</div>
+            <h2 class="sec-head">Ready to Go Further? These Programs Get Results</h2>
+            <div class="prod-grid">
+                <div class="prod-card">
+                    <div class="prod-tag">Most Popular</div>
+                    <h3>14-Day Rapid Soup Diet</h3>
+                    <p>Simple keto soup recipes that keep you full and in ketosis. Perfect for guys who want done-for-you meals without complicated prep. Thousands of men are using this to accelerate their fat loss.</p>
+                    <a href="https://3f2ab4pczpcmm71auk0oqs40ds.hop.clickbank.net" class="prod-link" target="_blank">Learn More →</a>
+                </div>
+                <div class="prod-card">
+                    <div class="prod-tag">Easiest Option</div>
+                    <h3>The 21-Day Smoothie Diet</h3>
+                    <p>Just blend and drink. This 21-day program takes the guesswork out of meal planning completely. If you want the simplest possible approach to losing weight, this is it.</p>
+                    <a href="https://680d26tl3bgnu69ryntjs8j02u.hop.clickbank.net" class="prod-link" target="_blank">Learn More →</a>
+                </div>
+                <div class="prod-card">
+                    <div class="prod-tag">Metabolism Booster</div>
+                    <h3>Mitolyn — Natural Fat Loss Support</h3>
+                    <p>The #1 metabolism-boosting supplement that pairs perfectly with keto. Designed to support your body's natural fat-burning process, especially after 40 when your metabolism slows down.</p>
+                    <a href="https://39474exnzpqgi3-krhti2kcw73.hop.clickbank.net" class="prod-link" target="_blank">Learn More →</a>
+                </div>
+                <div class="prod-card">
+                    <div class="prod-tag">Plateau Buster</div>
+                    <h3>Eat Stop Eat — Intermittent Fasting</h3>
+                    <p>The proven fasting method that pairs perfectly with keto for men over 40. When the scale stops moving, this is how you break through. Simple, flexible, and backed by research.</p>
+                    <a href="https://2eef38wn1glpu68bim1lwiuvyj.hop.clickbank.net" class="prod-link" target="_blank">Learn More →</a>
+                </div>
+            </div>
+        </section>
+
         <!-- TESTIMONIALS -->
         <div class="sec-title">Real Results</div>
         <h2 class="sec-head">Men Like You Are Already Seeing Changes</h2>
@@ -269,6 +310,13 @@
                 e.preventDefault();
                 var target = document.querySelector(this.getAttribute('href'));
                 if (target) target.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        // Track product link clicks in Meta Pixel
+        document.querySelectorAll('.prod-link').forEach(function(link) {
+            link.addEventListener('click', function() {
+                fbq('track', 'InitiateCheckout');
             });
         });
     </script>
