@@ -3,424 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SafeSiteWatch - Website Security Monitoring for Small Businesses</title>
-    <meta name="description" content="SafeSiteWatch monitors your website 24/7 and alerts you before problems cost you customers. Simple security for busy business owners.">
+    <title>KetMen40 — Keto for Men Over 40</title>
+    <meta name="description" content="Keto programs, recipes, and supplements built specifically for men over 40. Get our free 14-recipe cookbook when you sign up.">
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1629452368067953');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1629452368067953&ev=PageView&noscript=1"/></noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #1f2937;
-            background: #ffffff;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        /* Header */
-        header {
-            padding: 20px 0;
-            border-bottom: 1px solid #e5e7eb;
-        }
-        
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-            color: #2563eb;
-        }
-        
-        /* Hero Section */
-        .hero {
-            padding: 80px 0;
-            text-align: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-        }
-        
-        .hero h1 {
-            font-size: 48px;
-            font-weight: 800;
-            margin-bottom: 20px;
-            line-height: 1.2;
-        }
-        
-        .hero p {
-            font-size: 20px;
-            margin-bottom: 40px;
-            opacity: 0.95;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        /* Problems Section */
-        .problems {
-            padding: 80px 0;
-            background: #f9fafb;
-        }
-        
-        .section-title {
-            text-align: center;
-            font-size: 36px;
-            font-weight: 700;
-            margin-bottom: 60px;
-            color: #1f2937;
-        }
-        
-        .problems-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 40px;
-            margin-top: 40px;
-        }
-        
-        .problem-card {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.07);
-        }
-        
-        .problem-card .icon {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-        
-        .problem-card h3 {
-            font-size: 22px;
-            margin-bottom: 15px;
-            color: #1f2937;
-        }
-        
-        .problem-card p {
-            color: #6b7280;
-            line-height: 1.7;
-        }
-        
-        /* Solution Section */
-        .solution {
-            padding: 80px 0;
-        }
-        
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin-top: 50px;
-        }
-        
-        .feature {
-            padding: 20px;
-        }
-        
-        .feature .checkmark {
-            color: #10b981;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-        
-        .feature h4 {
-            font-size: 20px;
-            margin-bottom: 10px;
-            color: #1f2937;
-        }
-        
-        .feature p {
-            color: #6b7280;
-        }
-        
-        /* Pricing Section */
-        .pricing {
-            padding: 80px 0;
-            background: #f9fafb;
-            text-align: center;
-        }
-        
-        .price-card {
-            background: white;
-            max-width: 500px;
-            margin: 40px auto;
-            padding: 50px;
-            border-radius: 16px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }
-        
-        .price-card .price {
-            font-size: 48px;
-            font-weight: 800;
-            color: #2563eb;
-            margin: 20px 0;
-        }
-        
-        .price-card .price span {
-            font-size: 20px;
-            color: #6b7280;
-        }
-        
-        .price-card ul {
-            list-style: none;
-            text-align: left;
-            margin: 30px 0;
-        }
-        
-        .price-card li {
-            padding: 12px 0;
-            border-bottom: 1px solid #e5e7eb;
-            color: #4b5563;
-        }
-        
-        .price-card li:last-child {
-            border-bottom: none;
-        }
-        
-        /* CTA Section */
-        .cta {
-            padding: 80px 0;
-            text-align: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-        }
-        
-        .cta h2 {
-            font-size: 40px;
-            margin-bottom: 20px;
-        }
-        
-        .cta p {
-            font-size: 20px;
-            margin-bottom: 40px;
-            opacity: 0.9;
-        }
-        
-        .email-form {
-            max-width: 500px;
-            margin: 0 auto;
-            display: flex;
-            gap: 10px;
-        }
-        
-        .email-form input {
-            flex: 1;
-            padding: 16px 20px;
-            font-size: 16px;
-            border: none;
-            border-radius: 8px;
-        }
-        
-        .btn {
-            padding: 16px 32px;
-            font-size: 18px;
-            font-weight: 600;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-        
-        .btn-primary {
-            background: #2563eb;
-            color: white;
-        }
-        
-        .btn-primary:hover {
-            background: #1d4ed8;
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
-        }
-        
-        .btn-white {
-            background: white;
-            color: #667eea;
-        }
-        
-        .btn-white:hover {
-            background: #f3f4f6;
-        }
-        
-        .note {
-            margin-top: 20px;
-            font-size: 14px;
-            opacity: 0.8;
-        }
-        
-        /* Footer */
-        footer {
-            padding: 40px 0;
-            text-align: center;
-            background: #1f2937;
-            color: white;
-        }
-        
-        footer a {
-            color: #60a5fa;
-            text-decoration: none;
-        }
-        
-        /* Responsive */
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 36px;
-            }
-            
-            .hero p {
-                font-size: 18px;
-            }
-            
-            .section-title {
-                font-size: 28px;
-            }
-            
-            .email-form {
-                flex-direction: column;
-            }
-            
-            .problems-grid {
-                grid-template-columns: 1fr;
-            }
-        }
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Inter',sans-serif;background:#0a0f1a;color:#e8e8e8;line-height:1.6;overflow-x:hidden}
+        .container{max-width:680px;margin:0 auto;padding:0 24px}
+        .top-bar{background:rgba(34,139,34,.12);border-bottom:1px solid rgba(34,139,34,.2);text-align:center;padding:10px 16px;font-size:13px;font-weight:600;color:#6abf6a;letter-spacing:.5px;text-transform:uppercase}
+        .hero{padding:50px 0 30px;text-align:center}
+        h1{font-size:clamp(28px,5vw,42px);font-weight:800;line-height:1.15;color:#fff;margin-bottom:20px}
+        h1 .hl{background:linear-gradient(135deg,#34c759,#30d158);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+        .hero-sub{font-size:18px;color:#9ca3af;max-width:520px;margin:0 auto 20px;line-height:1.7}
+        .hero-sub strong{color:#d1d5db}
+        .sec-title{font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#34c759;text-align:center;margin-bottom:12px}
+        .sec-head{font-size:clamp(24px,4vw,32px);font-weight:800;color:#fff;text-align:center;margin-bottom:16px}
+        .sec-sub{font-size:16px;color:#9ca3af;text-align:center;margin-bottom:32px;max-width:520px;margin-left:auto;margin-right:auto}
+        .prod-sec{margin-bottom:48px}
+        .prod-grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:24px}
+        .prod-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:12px}
+        .prod-card:hover{border-color:rgba(34,139,34,.3)}
+        .prod-tag{display:inline-block;background:rgba(34,139,34,.15);border:1px solid rgba(34,139,34,.3);color:#6abf6a;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:4px 10px;border-radius:100px;width:fit-content}
+        .prod-card h3{font-size:18px;font-weight:700;color:#fff}
+        .prod-card p{font-size:14px;color:#9ca3af}
+        .prod-link{display:inline-block;padding:12px 24px;background:linear-gradient(135deg,#228B22,#2ea043);color:#fff;font-size:14px;font-weight:700;border-radius:10px;text-decoration:none;width:fit-content}
+        .form-card{background:linear-gradient(145deg,rgba(34,139,34,.12),rgba(34,139,34,.04));border:2px solid rgba(34,139,34,.3);border-radius:20px;padding:36px 28px}
+        .gift-badge{display:inline-block;background:rgba(245,158,11,.15);border:1px solid rgba(245,158,11,.3);color:#f59e0b;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;padding:6px 14px;border-radius:100px;margin-bottom:16px}
+        .form-card h2{font-size:24px;font-weight:800;color:#fff;margin-bottom:8px;text-align:center;line-height:1.3}
+        .form-sub{font-size:15px;color:#d1d5db;text-align:center;margin-bottom:24px}
+        .cookbook-features ul{list-style:none;margin-bottom:24px}
+        .cookbook-features li{padding:8px 0;display:flex;gap:10px;align-items:flex-start;font-size:14px;color:#d1d5db;border-bottom:1px solid rgba(255,255,255,.05)}
+        .cookbook-features li:last-child{border-bottom:none}
+        .cookbook-features li:before{content:"\2713";color:#34c759;font-weight:bold}
+        .fg{margin-bottom:14px}
+        .fg input{width:100%;padding:16px 18px;background:rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.1);border-radius:12px;color:#fff;font-size:16px;outline:none}
+        .fg input:focus{border-color:#34c759}
+        .cta-btn{width:100%;padding:18px;background:linear-gradient(135deg,#228B22,#2ea043);color:#fff;font-size:17px;font-weight:700;border:none;border-radius:12px;cursor:pointer;margin-top:8px}
+        .priv{text-align:center;font-size:12px;color:#6b7280;margin-top:14px}
+        .testi-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);border-radius:16px;padding:28px 24px;margin-bottom:16px}
+        .testi-txt{font-size:15px;color:#d1d5db;font-style:italic;margin-bottom:14px}
+        .testi-auth{display:flex;align-items:center;gap:12px}
+        .testi-av{width:40px;height:40px;border-radius:50%;background:#228B22;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff}
+        .testi-name{font-size:14px;font-weight:600;color:#fff}
+        .testi-det{font-size:12px;color:#6b7280}
+        .stars{color:#f59e0b;font-size:14px;letter-spacing:2px}
+        .success{display:none;text-align:center;padding:32px 20px}
+        .success h3{font-size:20px;font-weight:700;color:#fff;margin-bottom:8px}
+        .success p{font-size:14px;color:#9ca3af}
+        footer{text-align:center;padding:32px 0;border-top:1px solid rgba(255,255,255,.05);font-size:12px;color:#4b5563;margin-top:40px}
+        footer a{color:#6b7280;text-decoration:none;margin:0 12px}
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="logo">SafeSiteWatch</div>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1>Never Wonder If Your Website Is Safe Again</h1>
-            <p>SafeSiteWatch monitors your website 24/7 and alerts you before problems cost you customers. Simple security for busy business owners.</p>
-            <a href="#signup" class="btn btn-white">Get Early Access</a>
-        </div>
-    </section>
-
-    <!-- Problems Section -->
-    <section class="problems">
-        <div class="container">
-            <h2 class="section-title">The Problems You're Facing</h2>
-            <div class="problems-grid">
-                <div class="problem-card">
-                    <div class="icon">😰</div>
-                    <h3>You Don't Know When Something's Wrong</h3>
-                    <p>Your SSL expired. Your site went down. Customers saw warnings. You were the last to know - after customers already left.</p>
-                </div>
-                
-                <div class="problem-card">
-                    <div class="icon">🔥</div>
-                    <h3>Every Minute Offline = Lost Revenue</h3>
-                    <p>The average small business loses $427/hour of downtime. Can't fix what you don't know is broken.</p>
-                </div>
-                
-                <div class="problem-card">
-                    <div class="icon">😓</div>
-                    <h3>You're Not a Tech Expert</h3>
-                    <p>You started a business, not an IT department. Security shouldn't require a computer science degree.</p>
-                </div>
+    <div class="top-bar">Keto Programs, Recipes & Supplements for Men Over 40</div>
+    <div class="container">
+        <section class="hero">
+            <h1>Burn Stubborn Belly Fat <br><span class="hl">After 40</span></h1>
+            <p class="hero-sub">Keto programs, recipes, and supplements <strong>built specifically for men over 40</strong>. Real results without the gym.</p>
+        </section>
+        <section class="prod-sec">
+            <div class="sec-title">Recommended Programs</div>
+            <h2 class="sec-head">These Programs Get Results</h2>
+            <p class="sec-sub">We tested them. We recommend them. Click any product below for our full review and the best price available.</p>
+            <div class="prod-grid">
+                <div class="prod-card"><div class="prod-tag">Our Top Pick</div><h3>Mitolyn — Natural Fat Loss Support</h3><p>The #1 metabolism-boosting supplement for men over 40. Targets the exact slowdown that hits after 40.</p><a href="mitolyn.html" class="prod-link">Read Our Review →</a></div>
+                <div class="prod-card"><div class="prod-tag">Easiest to Use</div><h3>Java Burn — Supercharge Your Coffee</h3><p>Tasteless powder you mix into your morning coffee. 5 seconds, no new routine, all-day metabolism boost.</p><a href="java-burn.html" class="prod-link">Read Our Review →</a></div>
+                <div class="prod-card"><div class="prod-tag">Belly Fat Killer</div><h3>Sumatra Slim Belly Tonic</h3><p>Targets stubborn belly fat overnight by improving sleep — the #1 reason guys over 40 can't lose the gut.</p><a href="sumatra-slim.html" class="prod-link">Read Our Review →</a></div>
+                <div class="prod-card"><div class="prod-tag">Easiest Diet Plan</div><h3>The 21-Day Smoothie Diet</h3><p>Just blend and drink. Zero cooking required. Most users lose 5-15 lbs in 21 days. $20 off right now.</p><a href="smoothie-diet.html" class="prod-link">Read Our Review →</a></div>
+                <div class="prod-card"><div class="prod-tag">Best for Plateaus</div><h3>Eat Stop Eat — Intermittent Fasting</h3><p>The proven fasting method. 1-2 fasts per week. Backed by 317 scientific studies. Just $10.</p><a href="eat-stop-eat.html" class="prod-link">Read Our Review →</a></div>
             </div>
-        </div>
-    </section>
-
-    <!-- Solution Section -->
-    <section class="solution">
-        <div class="container">
-            <h2 class="section-title">How SafeSiteWatch Protects Your Business</h2>
-            <div class="features">
-                <div class="feature">
-                    <div class="checkmark">✅</div>
-                    <h4>SSL Certificate Monitoring</h4>
-                    <p>Get alerted 30 days before expiration - before browsers show scary warnings to customers.</p>
+        </section>
+        <section style="margin-bottom:48px">
+            <div style="text-align:center"><span class="gift-badge">🎁 Free Gift</span></div>
+            <div class="form-card">
+                <h2>Sign Up Today and Get The Ketomen40 Recipe Cookbook FREE</h2>
+                <p class="form-sub">14 keto recipes built for men over 40 — yours free when you join our subscription</p>
+                <div class="cookbook-features">
+                    <ul>
+                        <li><strong>14 keto recipes</strong> — breakfast, lunch, dinner, grilling, snacks</li>
+                        <li><strong>Step-by-step cooking directions</strong> — easy to follow</li>
+                        <li><strong>Full macros on every recipe</strong> — calories, fat, protein, carbs</li>
+                        <li><strong>7-day meal plan</strong> — done for you</li>
+                        <li><strong>Master shopping list</strong> — everything in one place</li>
+                        <li><strong>Real food</strong> — steak, bacon, burgers, ribs (no rabbit food)</li>
+                    </ul>
                 </div>
-                
-                <div class="feature">
-                    <div class="checkmark">✅</div>
-                    <h4>Website Uptime Tracking</h4>
-                    <p>Know within minutes if your site goes down. Not hours later when revenue is lost.</p>
-                </div>
-                
-                <div class="feature">
-                    <div class="checkmark">✅</div>
-                    <h4>Data Breach Checking</h4>
-                    <p>Instantly know if your business email appears in data breaches so you can act fast.</p>
-                </div>
-                
-                <div class="feature">
-                    <div class="checkmark">✅</div>
-                    <h4>Security Score (0-100)</h4>
-                    <p>One simple number. Green = good. Red = fix now. That's it.</p>
-                </div>
-                
-                <div class="feature">
-                    <div class="checkmark">✅</div>
-                    <h4>Plain English Alerts</h4>
-                    <p>No tech jargon. Just clear instructions: "Your SSL expires in 5 days. Click here to fix it."</p>
-                </div>
+                <form id="signup-form">
+                    <div class="fg"><input type="text" name="first_name" placeholder="Your first name" required></div>
+                    <div class="fg"><input type="email" name="email" placeholder="Your best email address" required></div>
+                    <button type="submit" class="cta-btn">Send Me the Free Cookbook →</button>
+                </form>
+                <div class="success" id="success-msg"><h3>You're In!</h3><p>Check your inbox — your Ketomen40 Recipe Cookbook is on its way.</p></div>
+                <p class="priv">🔒 100% free. No spam. Unsubscribe anytime.</p>
             </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="pricing">
-        <div class="container">
-            <h2 class="section-title">Simple, Honest Pricing</h2>
-            <div class="price-card">
-                <h3>Everything You Need</h3>
-                <div class="price">$29<span>/month</span></div>
-                <ul>
-                    <li>• Monitor 1 website 24/7</li>
-                    <li>• SSL certificate monitoring</li>
-                    <li>• Uptime tracking (checks every hour)</li>
-                    <li>• Data breach monitoring</li>
-                    <li>• Email & SMS alerts</li>
-                    <li>• Security score dashboard</li>
-                    <li>• 7-day free trial</li>
-                </ul>
-                <p style="margin-top: 20px; color: #6b7280;">No contracts. Cancel anytime.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta" id="signup">
-        <div class="container">
-            <h2>Join the Waitlist</h2>
-            <p>Launching April 2025. Be the first to know.</p>
-            <form class="email-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-                <input type="email" name="email" placeholder="Enter your email" required>
-                <button type="submit" class="btn btn-white">Get Early Access</button>
-            </form>
-            <p class="note">*No credit card required. We'll email you when we launch.</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>Questions? <a href="mailto:hello@safesitewatch.net">hello@safesitewatch.net</a></p>
-            <p style="margin-top: 10px;">© 2025 SafeSiteWatch. Simple website security monitoring.</p>
-        </div>
-    </footer>
-
+        </section>
+        <section>
+            <div class="sec-title">Real Results</div>
+            <h2 class="sec-head">Men Like You Are Already Seeing Changes</h2>
+            <div class="testi-card"><div class="stars">★★★★★</div><p class="testi-txt">"I lost 9 lbs in my first two weeks. The meal plan was so simple I didn't even feel like I was dieting."</p><div class="testi-auth"><div class="testi-av">M</div><div><div class="testi-name">Mike R.</div><div class="testi-det">Age 47 - Dallas, TX</div></div></div></div>
+            <div class="testi-card"><div class="stars">★★★★★</div><p class="testi-txt">"Best part? I'm still eating steak, bacon, and eggs. Down 14 lbs in 6 weeks."</p><div class="testi-auth"><div class="testi-av">D</div><div><div class="testi-name">Dan K.</div><div class="testi-det">Age 52 - Phoenix, AZ</div></div></div></div>
+            <div class="testi-card"><div class="stars">★★★★★</div><p class="testi-txt">"The keto flu tips alone were worth it. This time I powered through and I'm glad I did."</p><div class="testi-auth"><div class="testi-av">S</div><div><div class="testi-name">Steve P.</div><div class="testi-det">Age 44 - Chicago, IL</div></div></div></div>
+        </section>
+        <footer>
+            <p>© 2026 KetMen40 - All rights reserved</p>
+            <div style="margin-top:8px"><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Contact</a></div>
+            <p style="margin-top:12px;font-size:11px;color:#374151">Affiliate Disclosure: KetMen40 may earn commissions when you purchase through links on this site. This information is not intended as medical advice. Consult your physician before starting any diet program. Results may vary.</p>
+        </footer>
+    </div>
+    <form id="aweber-form" method="post" action="https://www.aweber.com/scripts/addlead.pl" style="display:none;">
+        <input type="hidden" name="meta_web_form_id" value="991136018"/>
+        <input type="hidden" name="meta_split_id" value=""/>
+        <input type="hidden" name="listname" value="awlist6941637"/>
+        <input type="hidden" name="redirect" value="https://ketomen40.com/downloads/ketomen40-recipe-cookbook.pdf"/>
+        <input type="hidden" name="meta_redirect_onlist" value="https://www.aweber.com/thankyou-coi.htm?m=text"/>
+        <input type="hidden" name="meta_adtracking" value="My_Web_Form"/>
+        <input type="hidden" name="meta_message" value="1"/>
+        <input type="hidden" name="meta_required" value="name,email"/>
+        <input type="text" name="name" id="aweber-name"/>
+        <input type="email" name="email" id="aweber-email"/>
+    </form>
     <script>
-        // Smooth scroll for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
+        document.getElementById('signup-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var form = this;
+            document.getElementById('aweber-name').value = form.querySelector('input[name="first_name"]').value;
+            document.getElementById('aweber-email').value = form.querySelector('input[name="email"]').value;
+            form.style.display = 'none';
+            document.getElementById('success-msg').style.display = 'block';
+            fbq('track', 'Lead');
+            setTimeout(function() { document.getElementById('aweber-form').submit(); }, 2000);
+        });
+        document.querySelectorAll('.prod-link').forEach(function(link) {
+            link.addEventListener('click', function() { fbq('track', 'ViewContent'); });
         });
     </script>
 </body>
