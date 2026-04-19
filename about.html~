@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — KetMen40</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Inter',sans-serif;background:#0a0f1a;color:#d1d5db;line-height:1.8}
+        .container{max-width:700px;margin:0 auto;padding:40px 24px}
+        .top-bar{background:rgba(34,139,34,.12);border-bottom:1px solid rgba(34,139,34,.2);text-align:center;padding:10px 16px;font-size:12px;font-weight:600;color:#6abf6a;text-transform:uppercase}
+        .top-bar a{color:#6abf6a;text-decoration:none}
+        h1{color:#fff;font-size:32px;font-weight:800;margin-bottom:24px}
+        h2{color:#fff;font-size:22px;margin-top:32px;margin-bottom:12px}
+        p{margin-bottom:16px;font-size:16px;line-height:1.8}
+        .name-badge{display:inline-block;background:rgba(34,139,34,.15);border:1px solid rgba(34,139,34,.3);color:#6abf6a;font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:6px 16px;border-radius:100px;margin-bottom:20px}
+        .mission-box{background:rgba(255,255,255,.03);border-left:3px solid #34c759;padding:20px 24px;border-radius:8px;margin:24px 0;font-size:16px;color:#d1d5db}
+        .values{margin:24px 0}
+        .value-item{display:flex;gap:14px;align-items:flex-start;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+        .value-item:last-child{border-bottom:none}
+        .value-icon{font-size:24px;flex-shrink:0}
+        .value-title{font-size:16px;font-weight:700;color:#fff;margin-bottom:4px}
+        .value-desc{font-size:14px;color:#9ca3af}
+        a{color:#34c759}
+        .cta-section{text-align:center;margin-top:48px;padding:32px;background:rgba(34,139,34,.08);border:1px solid rgba(34,139,34,.2);border-radius:16px}
+        .cta-section h2{margin-top:0}
+        .cta-btn{display:inline-block;padding:14px 32px;background:linear-gradient(135deg,#228B22,#2ea043);color:#fff;font-size:16px;font-weight:700;border-radius:12px;text-decoration:none;margin-top:12px}
+        .footer{text-align:center;margin-top:60px;padding-top:24px;border-top:1px solid rgba(255,255,255,.05);color:#6b7280;font-size:13px}
+        .footer a{color:#9ca3af;text-decoration:none;margin:0 12px}
+    </style>
+</head>
+<body>
+    <div class="top-bar"><a href="https://ketomen40.com">← Back to KetMen40</a></div>
+    <div class="container">
+        <span class="name-badge">About KetMen40</span>
+        <h1>Built by a Guy Who Gets It</h1>
+
+        <p>Hey, I'm Jimmy.</p>
+
+        <p>I started KetMen40 because I was tired of seeing keto advice that was clearly written for 20-somethings. You know the type — "just cut carbs and hit the gym 6 days a week!" Yeah, that's not realistic when you're over 40, working full time, and your body doesn't recover like it used to.</p>
+
+        <p>After 40, everything changes. Your metabolism slows down. Testosterone drops. The belly fat shows up and refuses to leave. The diet plans that worked in your 30s just don't cut it anymore.</p>
+
+        <p>I built KetMen40 to be the resource I wish I had — no nonsense, no complicated programs, just real food and real products that actually work for guys like us.</p>
+
+        <div class="mission-box">
+            <strong style="color:#34c759">Our mission:</strong> Help men over 40 lose weight, feel better, and take control of their health — without starving themselves, living in a gym, or following programs designed for someone half their age.
+        </div>
+
+        <h2>What We Do</h2>
+
+        <div class="values">
+            <div class="value-item">
+                <div class="value-icon">🔍</div>
+                <div>
+                    <div class="value-title">Honest Product Reviews</div>
+                    <div class="value-desc">We test and review supplements, programs, and tools specifically for men over 40. No fake reviews. No products we wouldn't use ourselves. If something has a long, annoying sales page — we'll tell you.</div>
+                </div>
+            </div>
+            <div class="value-item">
+                <div class="value-icon">🍳</div>
+                <div>
+                    <div class="value-title">Keto Recipes Built for Men</div>
+                    <div class="value-desc">Our Ketomen40 Recipe Cookbook has 14 keto recipes with big portions, real food (steak, bacon, burgers, ribs), full macros, and step-by-step directions. No rabbit food.</div>
+                </div>
+            </div>
+            <div class="value-item">
+                <div class="value-icon">📧</div>
+                <div>
+                    <div class="value-title">Weekly Tips and Updates</div>
+                    <div class="value-desc">Our email subscribers get keto tips, new product finds, and recipe updates delivered straight to their inbox. No spam, no fluff — just useful stuff.</div>
+                </div>
+            </div>
+            <div class="value-item">
+                <div class="value-icon">💯</div>
+                <div>
+                    <div class="value-title">No BS Approach</div>
+                    <div class="value-desc">We don't promise you'll lose 30 pounds in a week. We give you tools, information, and recommendations that actually work — and let you make your own decisions.</div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Affiliate Disclosure</h2>
+        <p>Full transparency: KetMen40 earns commissions when you purchase products through our review links. This is how we keep the site running and the cookbook free. It doesn't cost you anything extra, and we only recommend products we genuinely believe in. If something doesn't meet our standards, it doesn't make it onto the site.</p>
+
+        <h2>Contact</h2>
+        <p>Got a question, suggestion, or just want to share your results? I'd love to hear from you.</p>
+        <p>Email: <a href="mailto:jimmy@ketomen40.com">jimmy@ketomen40.com</a></p>
+
+        <div class="cta-section">
+            <h2>Ready to Get Started?</h2>
+            <p>Grab your free Ketomen40 Recipe Cookbook and check out our top recommended products.</p>
+            <a href="https://ketomen40.com" class="cta-btn">Visit KetMen40 →</a>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 KetMen40 - All rights reserved</p>
+            <div style="margin-top:8px">
+                <a href="https://ketomen40.com">Home</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
